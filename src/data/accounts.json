@@ -1,0 +1,18 @@
+[
+  {
+    "token": "97bf6d17-f688-4e0d-bb56-33a6e9847fe8",
+    "email": "kyle.jensen72@gmail.com",
+    "password": "monkeys123",
+    "data": {
+      "name": "Kyle Jensen"
+    }
+  },
+  {
+    "token": "858924d1-433a-4335-beef-aabe74b79e36",
+    "email": "galen_goalie@gmail.com",
+    "password": "Warhawks58",
+    "data": {
+      "name": "Galen Sprout"
+    }
+  }
+]

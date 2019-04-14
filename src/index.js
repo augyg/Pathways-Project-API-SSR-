@@ -1,18 +1,24 @@
 const express = require('express');
 const router = require('./router.js');
+const bodyParser = require('body-parser');
 const app = express();
 
 const { initializeFirestore } = require('./dal');
 initializeFirestore();
 
-app.get('*', (req, res) => {
-  if(checkAuthToken(req.cookies)) {
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+app.post('*', (req, res) => {
+  if(checkAuthToken(req)) {
     if(!router.findRoute(req.path)) {
       res.status(404).send('Route not found');
       return;
     }
     router.route(req).then(response => {
       res.status(200).send(response);
+    }).catch(err => {
+      res.status(200).send(false);
     });
   } else {
     res.status(401).send('Unauthorized');
