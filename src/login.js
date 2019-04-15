@@ -8,10 +8,9 @@ const login = (email, password) => {
           if(a.email === email && a.password === password) {
             resolve({token: a.token});
           }
-        });
-      } else {
-        reject(err);
-      }
+        });      
+      } 
+      reject(err);
     });
   });
 }
