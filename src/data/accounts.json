@@ -1,18 +1,70 @@
 [
   {
-    "token": "97bf6d17-f688-4e0d-bb56-33a6e9847fe8",
+    "token": "99ae1c5f-7ec9-41ab-95d5-b4cf48f5991c",
+    "accountType": 0,
     "email": "kyle.jensen72@gmail.com",
     "password": "monkeys123",
     "data": {
-      "name": "Kyle Jensen"
+      "name": "Kyle Jensen",
+      "address": "278 Marengo crt",
+      "city": "Waterloo",
+      "province": "...",
+      "postalCode": "N2K3X2",
+      "dateOfBirth": "1997-03-25",
+      "phoneNumber": "5195753595",
+      "tos": 1,
+      "subscribe": 1
     }
   },
   {
-    "token": "858924d1-433a-4335-beef-aabe74b79e36",
+    "token": "ce5edd1c-3e83-4389-a6db-069fac3e456c",
+    "accountType": 0,
     "email": "galen_goalie@gmail.com",
     "password": "Warhawks58",
     "data": {
-      "name": "Galen Sprout"
+      "name": "Galen Sprout",
+      "address": "397 Keats Way",
+      "city": "Waterloo",
+      "province": "...",
+      "postalCode": "N2L5S7",
+      "dateOfBirth": "1997-03-26",
+      "phoneNumber": "5194984976",
+      "tos": 1,
+      "subscribe": 1
+    }
+  },
+  {
+    "token": "0e7c8faa-2f9f-400a-8ed8-911590532fd2",
+    "accountType": 0,
+    "email": "kyle.jensen72@gmail.com",
+    "password": "123",
+    "data": {
+      "name": "123 123",
+      "address": "123",
+      "city": "123",
+      "province": "...",
+      "postalCode": "12345",
+      "dateOfBirth": "12334-12-23",
+      "phoneNumber": "1234212",
+      "tos": 1,
+      "subscribe": 1
+    }
+  },
+  {
+    "token": "dda91edf-9554-4967-ae54-812bb23e5745",
+    "accountType": 0,
+    "email": "kyle.jensen272@gmail.com",
+    "password": "123",
+    "data": {
+      "name": "123 123",
+      "address": "123",
+      "city": "123",
+      "province": "...",
+      "postalCode": "123",
+      "dateOfBirth": "0123-12-03",
+      "phoneNumber": "123",
+      "tos": 1,
+      "subscribe": 1
     }
   }
 ]
