@@ -6,7 +6,7 @@ const getUser = (token) => {
         let accountData = JSON.parse(data);
         accountData.forEach(a => {
           if(a.token === token) {
-            resolve({user: {email: a.email, ...a.data}});
+            resolve({accountType: a.accountType, data: {email: a.email, ...a.data}});
           }
         });
         reject(false);

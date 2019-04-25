@@ -19,7 +19,7 @@
   {
     "token": "ce5edd1c-3e83-4389-a6db-069fac3e456c",
     "accountType": 0,
-    "email": "galen_goalie@gmail.com",
+    "email": "galen_goalie@hotmail.com",
     "password": "Warhawks58",
     "data": {
       "name": "Galen Sprout",
@@ -34,18 +34,16 @@
     }
   },
   {
-    "token": "b7bbe57e-2967-4e48-9051-5b5e6b0f4a27",
-    "accountType": 0,
-    "email": "kirstincorbett@gmail.com",
+    "token": "d43d92a5-e983-46f6-b95a-b7d6a36faf32",
+    "accountType": 1,
+    "email": "kyle.jensen@gmail.com",
     "password": "monkeys123",
     "data": {
-      "name": "Kirstin Corbett",
-      "address": "278 Marengo crt",
+      "name": "Kyle Jensen",
+      "address": "278 marengo crt",
       "city": "Waterloo",
       "province": "...",
       "postalCode": "N2K3X2",
-      "dateOfBirth": "1997-12-12",
-      "phoneNumber": "5195055612",
       "tos": 1,
       "subscribe": 1
     }
